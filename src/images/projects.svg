@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="338" height="253" viewBox="0 0 338 253">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #c9dce5;
+      }
+
+      .cls-2 {
+        font-size: 38px;
+        font-family: Vortice-Concept, Vortice;
+        letter-spacing: 0.085em;
+        opacity: 0.698;
+      }
+
+      .cls-4 {
+        fill: #000;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e4e4e4"/>
+      <stop offset="0.123" stop-color="#c8cfd7"/>
+      <stop offset="0.212" stop-color="#b4c0ce"/>
+      <stop offset="0.493" stop-color="#aab8ca"/>
+      <stop offset="1" stop-color="#00397e"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_26" data-name="Group 26" transform="translate(-1379 -92)">
+    <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-1" cx="126.5" cy="126.5" r="126.5" transform="translate(1422 92)"/>
+    <text id="Projects" class="cls-2" transform="translate(1548 231)"><tspan class="cls-3" x="-168.701" y="0">P</tspan><tspan class="cls-4" y="0">roject</tspan><tspan class="cls-3" y="0">s</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="389" height="54" viewBox="0 0 389 54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff1c1c;
+        font-size: 50px;
+        font-family: ACaslonPro-Semibold, Adobe Caslon Pro;
+        font-weight: 600;
+        opacity: 0.442;
+      }
+
+      .cls-2 {
+        fill: #707070;
+      }
+
+      .cls-3 {
+        fill: #0071fb;
+      }
+    </style>
+  </defs>
+  <text id="Web_Development" data-name="Web Development" class="cls-1" transform="translate(1)"><tspan x="0" y="37">Web</tspan><tspan class="cls-2" y="37"> </tspan><tspan class="cls-3" y="37">Develop</tspan><tspan class="cls-2" y="37">ment</tspan></text>
+</svg>

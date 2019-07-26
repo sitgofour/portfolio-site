@@ -1,0 +1,21 @@
+.Home-menu{
+    background-color: aquamarine;
+    width: 50%;
+}
+
+.github-link img{
+    width: 20%;
+    margin: 3% 0 3% 5%;
+}
+.linkedin-link img{
+    width: 20%;
+    margin: 0 0 3% 18%;
+}
+.contact-link img{
+    width: 20%;
+    margin: 0 0 3% 38%;
+}
+.projects-link img{
+    width: 20%;
+    margin: 0 0 3% 60%;
+}

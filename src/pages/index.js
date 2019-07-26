@@ -1,3 +1,15 @@
 import React from "react"
+import HomeLayout from '../components/HomeLayout';
+import HomeMenu from "../components/HomeMenu";
 
-export default () => <div>Hello world!</div>
+const index = () => {
+    return(
+        <div>
+            <HomeLayout>
+                <HomeMenu />
+            </HomeLayout>
+        </div>
+    )
+}
+
+export default index;
