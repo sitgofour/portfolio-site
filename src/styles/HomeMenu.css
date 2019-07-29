@@ -1,21 +1,33 @@
 .Home-menu{
     background-color: aquamarine;
-    width: 50%;
+    height: 60vh;
+    width: 60vw;
+    display: grid;
+    grid-template-columns: [page-left] 45% [center-column] 45% [page-right];
+    grid-template-rows: [page-top] 45% [center-row] 45% [page-bottom]; 
 }
 
 .github-link img{
+    grid-column: page-left / center-column;
+    grid-row: page-top / center-row;
     width: 20%;
     margin: 3% 0 3% 5%;
 }
 .linkedin-link img{
+    grid-column: center-column / page-right;
+    grid-row: page-top / center-row;
     width: 20%;
     margin: 0 0 3% 18%;
 }
 .contact-link img{
+    grid-column: page-left / center-column;
+    grid-row: center-row / page-bottom;
     width: 20%;
     margin: 0 0 3% 38%;
 }
 .projects-link img{
+    grid-column: center-column / page-right;
+    grid-row: center-row / page-bottom;
     width: 20%;
     margin: 0 0 3% 60%;
 }
