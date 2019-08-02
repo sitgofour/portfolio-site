@@ -1,33 +1,57 @@
 .Home-menu{
-    background-color: aquamarine;
     height: 60vh;
-    width: 60vw;
+    width: 95vw;
     display: grid;
-    grid-template-columns: [page-left] 45% [center-column] 45% [page-right];
-    grid-template-rows: [page-top] 45% [center-row] 45% [page-bottom]; 
+    grid-template-columns:[left-margin] 35% [page-left] 30% [center-column] 30% [page-right];
+    grid-template-rows:[page-top] 45% [center-row] 45% [page-bottom]; 
+    align-items: center;
+    justify-items: center;
 }
 
-.github-link img{
+.github-link{
     grid-column: page-left / center-column;
     grid-row: page-top / center-row;
-    width: 20%;
-    margin: 3% 0 3% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/github-screen.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 75%;
+    height: 35%;
+    border-radius: 4rem;
 }
-.linkedin-link img{
+.linkedin-link{
     grid-column: center-column / page-right;
     grid-row: page-top / center-row;
-    width: 20%;
-    margin: 0 0 3% 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/linked-screen.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 75%;
+    height: 35%;
+    border-radius: 4rem;
 }
-.contact-link img{
+.contact-link{
     grid-column: page-left / center-column;
     grid-row: center-row / page-bottom;
-    width: 20%;
-    margin: 0 0 3% 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.projects-link img{
+.projects-link{
     grid-column: center-column / page-right;
     grid-row: center-row / page-bottom;
-    width: 20%;
-    margin: 0 0 3% 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 1000px), (max-height: 800px) {
+    .Home-menu{
+        display: flex;
+    }
 }
