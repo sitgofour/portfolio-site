@@ -6,6 +6,14 @@
     grid-template-rows:[page-top] 45% [center-row] 45% [page-bottom]; 
     align-items: center;
     justify-items: center;
+    z-index: 2;
+}
+
+.portrait-image{
+    grid-column: left-margin / page-left;
+    grid-row: page-top / center-row;
+    height: 90%;
+    z-index: 1;
 }
 
 .github-link{
@@ -20,6 +28,10 @@
     width: 75%;
     height: 35%;
     border-radius: 4rem;
+    transition: width .5s linear;
+}
+.github-link:hover{
+    width: 45%;
 }
 .linkedin-link{
     grid-column: center-column / page-right;
@@ -53,5 +65,21 @@
 @media only screen and (max-width: 1000px), (max-height: 800px) {
     .Home-menu{
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .github-link{
+        width: 25%;
+        background: none;
+    }
+    .linkedin-link{
+        width: 25%;
+        background: none;
+    }
+    .portrait-image{
+        
+    }
+    .portrait-image img{
+        height: 40%;
     }
 }

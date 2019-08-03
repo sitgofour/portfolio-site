@@ -4,26 +4,30 @@ import github from "../images/github.svg";
 import linked from "../images/linkedin.svg";
 import contact from "../images/contact.svg";
 import projects from "../images/projects.svg";
+import portrait from "../images/portrait.svg";
 
 const HomeMenu = () => {
     return(
         <div className="Home-menu">
-            <div className="github-link">
+            <div className="portrait-image">
+                <img src={portrait} alt="portrait-image"/>
+            </div>
+            <div className="github-link menu-item">
                 <a href="google.com">
                     <img src={github} alt="github-link"/>
                 </a>
             </div>
-            <div className="linkedin-link">
+            <div className="linkedin-link menu-item">
                 <a href="#">
                     <img src={linked} alt="linked-in-link"/>
                 </a>
             </div>
-            <div className="contact-link">
+            <div className="contact-link menu-item">
                 <a href="#">
                     <img src={contact} alt="contact-page-link"/>
                 </a>
             </div>
-            <div className="projects-link">
+            <div className="projects-link menu-item">
                 <a href="#">
                     <img src={projects} alt="link-to-projects"/>
                 </a>

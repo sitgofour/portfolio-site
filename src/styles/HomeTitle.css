@@ -1,4 +1,5 @@
 .Home-title{
     background-color: rgb(27, 245, 100);
-    border-radius: 1rem;
+    border-radius: 0 3rem 3rem 0;
+    width: 90vw;
 }
