@@ -9,19 +9,22 @@
     z-index: 2;
 }
 
+.menu-item{
+    background: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .portrait-image{
     grid-column: left-margin / page-left;
     grid-row: page-top / center-row;
-    height: 90%;
-    z-index: 1;
+    height: 99%;
 }
 
 .github-link{
     grid-column: page-left / center-column;
     grid-row: page-top / center-row;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-image: url(../images/github-screen.jpg);
     background-position: center;
     background-size: cover;
@@ -30,15 +33,14 @@
     border-radius: 4rem;
     transition: width .5s linear;
 }
+
 .github-link:hover{
     width: 45%;
 }
+
 .linkedin-link{
     grid-column: center-column / page-right;
     grid-row: page-top / center-row;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-image: url(../images/linked-screen.jpg);
     background-position: center;
     background-size: cover;
@@ -46,40 +48,33 @@
     height: 35%;
     border-radius: 4rem;
 }
+
 .contact-link{
     grid-column: page-left / center-column;
     grid-row: center-row / page-bottom;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
+
 .projects-link{
     grid-column: center-column / page-right;
     grid-row: center-row / page-bottom;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-
 @media only screen and (max-width: 1000px), (max-height: 800px) {
+    .menu-item{
+        width: 30vw;
+        margin: 0 2rem 0 2rem;
+        background: none;
+    }
     .Home-menu{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .github-link{
-        width: 25%;
-        background: none;
-    }
-    .linkedin-link{
-        width: 25%;
-        background: none;
-    }
     .portrait-image{
-        
+        width: 100%;
+        height: 15vh;
     }
     .portrait-image img{
-        height: 40%;
+        height: 100%;
     }
 }
