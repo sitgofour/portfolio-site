@@ -3,7 +3,7 @@
     width: 95vw;
     display: grid;
     grid-template-columns:[left-margin] 35% [page-left] 30% [center-column] 30% [page-right];
-    grid-template-rows:[page-top] 45% [center-row] 45% [page-bottom]; 
+    grid-template-rows:[page-top] 45% [center-row] 45% [page-bottom] 10% [below-menu]; 
     align-items: center;
     justify-items: center;
     z-index: 2;
@@ -21,6 +21,10 @@
 
 .menu-item img:hover{
     transform: scale(1.2);
+}
+
+.menu-item img:active{
+    transform: scale(.9);
 }
 
 .portrait-image{
@@ -61,14 +65,53 @@
     grid-row: center-row / page-bottom;
 }
 
+.select-option-text{
+    display: flex;
+    justify-content: center;
+    grid-column: page-left / page-right;
+    grid-row: page-bottom / below-menu;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+.shimmer {
+    text-align: center;
+    color: #0f100f1a;
+    background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    -webkit-background-size: 125px 100%;
+    -moz-background-size: 125px 100%;
+    background-size: 125px 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-animation-name: shimmer;
+    -moz-animation-name: shimmer;
+    animation-name: shimmer;
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: #222;
+  }
+
 @media only screen and (max-width: 1000px), (max-height: 800px) {
     .menu-item{
         width: 30vw;
-        margin: 1rem 2rem;
+        margin: 1rem;
         background: none;
-        transform: none;
-        transition: none;
     }
+
+    .menu-item img{
+        width: 100%;
+    }
+
     .Home-menu{
         display: flex;
         flex-wrap: wrap;
@@ -82,20 +125,54 @@
         height: 100%;
     }
 
-    .github-link img{
+    .menu-item img{
         transition: all .15s linear;
     }
 
-    .github-link img:hover{
-        transform: scale(.75);
-    }
-    .linkedin-link img{
-        transition: all .15s linear;
-    }
-
-    .linkedin-link img:hover{
+    .menu-item img:hover{
         transform: scale(.75);
     }
 
+    .menu-item img:active{
+        transform: scale(1);
+    }
+
+    .select-option-text{
+        align-items: center;
+        font-size: 1.5rem;
+    }
 
 }
+
+@-moz-keyframes shimmer {
+    0% {
+      background-position: top left;
+    }
+    100% {
+      background-position: top right;
+    }
+  }
+  @-webkit-keyframes shimmer {
+    0% {
+      background-position: top left;
+    }
+    100% {
+      background-position: top right;
+    }
+  }
+  @-o-keyframes shimmer {
+    0% {
+      background-position: top left;
+    }
+    100% {
+      background-position: top right;
+    }
+  }
+  @keyframes shimmer {
+    0% {
+      background-position: top left;
+    }
+    100% {
+      background-position: top right;
+    }
+  }

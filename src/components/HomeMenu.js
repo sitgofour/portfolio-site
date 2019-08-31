@@ -31,6 +31,11 @@ const HomeMenu = () => {
                 <a href="#">
                     <img src={projects} alt="link-to-projects"/>
                 </a>
+            </div>
+            <div className="select-option-text">
+                <div className="shimmer">
+                    <h4>Select Option From Menu</h4>
+                </div>
             </div>            
         </div>
         

@@ -1,13 +1,12 @@
 .Home-title{
+    margin-top: 10rem;
     background-color: rgb(27, 245, 100);
     border-radius: 0 3rem 3rem 0;
     width: 90vw;
 }
 
 @media only screen and (max-width: 1000px), (max-height: 800px) {
-    .Home-title{
-        margin-top: 4rem;
-    }
+
     .Home-title img{
         width: 100%;
     }
