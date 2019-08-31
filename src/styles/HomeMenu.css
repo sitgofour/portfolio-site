@@ -10,10 +10,17 @@
 }
 
 .menu-item{
-    background: yellow;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.menu-item img{
+    transition: all .15s linear;
+}
+
+.menu-item img:hover{
+    transform: scale(1.2);
 }
 
 .portrait-image{
@@ -31,11 +38,6 @@
     width: 75%;
     height: 35%;
     border-radius: 4rem;
-    transition: width .5s linear;
-}
-
-.github-link:hover{
-    width: 45%;
 }
 
 .linkedin-link{
@@ -62,8 +64,10 @@
 @media only screen and (max-width: 1000px), (max-height: 800px) {
     .menu-item{
         width: 30vw;
-        margin: 0 2rem 0 2rem;
+        margin: 1rem 2rem;
         background: none;
+        transform: none;
+        transition: none;
     }
     .Home-menu{
         display: flex;
@@ -77,4 +81,21 @@
     .portrait-image img{
         height: 100%;
     }
+
+    .github-link img{
+        transition: all .15s linear;
+    }
+
+    .github-link img:hover{
+        transform: scale(.75);
+    }
+    .linkedin-link img{
+        transition: all .15s linear;
+    }
+
+    .linkedin-link img:hover{
+        transform: scale(.75);
+    }
+
+
 }
