@@ -10,25 +10,25 @@ const HomeMenu = () => {
     return(
         <div className="Home-menu">
             <div className="portrait-image">
-                <img src={portrait} alt="portrait-image"/>
+                <img src={portrait} alt="artistic portrait"/>
             </div>
             <div className="github-link menu-item">
-                <a href="google.com">
+                <a href="github.com">
                     <img src={github} alt="github-link"/>
                 </a>
             </div>
             <div className="linkedin-link menu-item">
-                <a href="#">
+                <a href="linkedin.com">
                     <img src={linked} alt="linked-in-link"/>
                 </a>
             </div>
             <div className="contact-link menu-item">
-                <a href="#">
+                <a href="/contact">
                     <img src={contact} alt="contact-page-link"/>
                 </a>
             </div>
             <div className="projects-link menu-item">
-                <a href="#">
+                <a href="/projects">
                     <img src={projects} alt="link-to-projects"/>
                 </a>
             </div>
