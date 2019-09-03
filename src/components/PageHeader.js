@@ -12,21 +12,27 @@ const PageHeader = () => {
             </div>
             <div className="header-page-links">
                 <ul>
-                    <div className="header-link">
+                    <li>
                         <a href="/">
-                            <li>Home</li>
-                        </a> 
-                    </div>
-                    <div className="header-link">
-                        <a href="/projects">
-                            <li>Projects</li>
+                            <div className="header-link">
+                                <p>Home</p>
+                            </div>
                         </a>
-                    </div>
-                    <a href="/contact">
-                        <div className="header-link">
-                            <li>Contact</li> 
-                        </div>
-                    </a>
+                    </li>
+                    <li>
+                        <a href="/projects">
+                            <div className="header-link">
+                                <p>Projects</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/contact">
+                            <div className="header-link">
+                                <p>Contact</p> 
+                            </div>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
