@@ -10,16 +10,22 @@ const PageHeader = () => {
                     <img src={headerLogo} alt="home logo and button"/>
                 </a>
             </div>
-            <div>
+            <div className="header-page-links">
                 <ul>
-                    <a href="/">
-                        <li>Home</li>
-                    </a>
-                    <a href="/">
-                        <li>Projects</li>
-                    </a>
-                    <a href="/">
-                        <li>Contact</li>
+                    <div className="header-link">
+                        <a href="/">
+                            <li>Home</li>
+                        </a> 
+                    </div>
+                    <div className="header-link">
+                        <a href="/projects">
+                            <li>Projects</li>
+                        </a>
+                    </div>
+                    <a href="/contact">
+                        <div className="header-link">
+                            <li>Contact</li> 
+                        </div>
                     </a>
                 </ul>
             </div>
