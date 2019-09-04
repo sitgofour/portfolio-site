@@ -1,11 +1,14 @@
 import React from 'react';
-import PageHeader from "../components/Pageheader";
-
+import PageLayout from "../components/PageLayout";
 
 const Contact = () => {
     return(
         <div className="Contact-page-wrapper">
-            <PageHeader />
+            <PageLayout>
+                <div>
+                    <h1>Hello.</h1>
+                </div>
+            </PageLayout>
         </div>
     )
 }
