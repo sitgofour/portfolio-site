@@ -1,6 +1,7 @@
 import React from "react";
 import PageHeader from './PageHeader';
 import "../styles/PageLayout.css";
+import Footer from "./Footer";
 
 
 const PageLayout = (props) => {
@@ -8,6 +9,7 @@ const PageLayout = (props) => {
         <div className="Page-layout">
             <PageHeader />
                 {props.children}
+            <Footer />
         </div>
     )
 }
