@@ -1,14 +1,27 @@
 .Footer{
+    display: flex;
+    justify-content: space-around;
     background-color: #333333;
     height: 15vh;
 }
 
 .build-tag{
+    align-self: center;
     justify-content: center;
+    align-items: center;
     display: flex;
+    background-color: #C1C1C1;
+    border-radius: 3rem;
+    width: 25vw;
+    height: 30%;
 }
 
 .build-tag img{
-    margin-left: .5rem;
-    width: 100px;
+    width: 40%;
+    height: 75%;
+}
+
+.build-tag p{
+    width: 50%;
+    height: auto;
 }
