@@ -1,0 +1,15 @@
+.Contact-form{
+    background-color: green;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+}
+
+.firstname{
+    width: 80vw;
+}
+
+textarea{
+    overflow-y: scroll;
+    height: 20vh;
+}
