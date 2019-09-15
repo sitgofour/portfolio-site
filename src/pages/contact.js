@@ -7,7 +7,7 @@ const Contact = () => {
         <div className="Contact-page-wrapper">
             <PageLayout>
                 <div>
-                    <h1>Hello.</h1>
+                    <h1>Hello. Lorem ipsum is placeholder text commonly used in the graphic</h1>
                 </div>
                 <ContactForm />
             </PageLayout>
