@@ -4,6 +4,10 @@ import '../styles/ContactForm.css';
 const ContactForm = () => {
     return(
         <div className="Contact-component">
+            <div className="Contact-aside">
+                <h1>Lorem Ipsum Lorem Amadeus</h1>
+                <h3>feel free to send me an email inquiring about how i might be of service to you.</h3>
+            </div>
             <form>
                 <div className="firstname">
                     <label>
