@@ -7,6 +7,7 @@
     align-items: center;
     justify-items: center;
     z-index: 2;
+    margin-bottom: 5px;
 }
 
 .menu-item{
@@ -102,6 +103,10 @@
   }
 
 @media only screen and (max-width: 1000px), (max-height: 800px) {
+    .Home-menu{
+      margin-bottom: 8rem;
+    }
+
     .menu-item{
         width: 30vw;
         margin: 1rem;
