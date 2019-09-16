@@ -2,7 +2,7 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #dbdbdb;
+        fill: #333333;
         font-size: 80px;
         font-family: Vortice-Concept, Vortice;
       }
