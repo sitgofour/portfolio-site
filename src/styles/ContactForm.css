@@ -1,7 +1,7 @@
 .Contact-component{
-    /* background-color: green; */
+    background-color: green;
     width: 100%;
-    height: 60vh;
+    height: 60%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -15,11 +15,13 @@
     display: flex;
     flex-direction: column;
     width: 40%;
+    height: 90%;
+    background-color: yellow;
 }
 
-input, textarea{
+input{
     width: 100%;
-    height: 30px;
+    height: 2rem;
     margin: 15px 0 15px 0;
     border-radius: 5px;
     font-size: 1.2rem;
@@ -30,6 +32,13 @@ input:focus, textarea:focus{
 }
 
 textarea{
+    display: block;
+    margin-bottom: 1rem;
+    clear: both;
+    width: 100%;
+    height: 200px;
     overflow-y: scroll;
-    height: 20vh;
+    margin: 15px 0 15px 0;
+    border-radius: 5px;
+    font-size: 1.2rem; 
 }
