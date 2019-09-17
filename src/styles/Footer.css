@@ -6,24 +6,21 @@
 }
 
 .build-tag{
-    align-self: center;
-    justify-content: center;
-    align-items: center;
     display: flex;
+    flex-wrap: wrap;
+    align-self: flex-end;
+    justify-content: center;
     background-color: #C1C1C1;
-    border-radius: 3rem;
-    width: 15%;
-    height: 80%;
+    border-radius: 2vw;
+    width: 25%;
+    height: 60%;
 }
 
 .build-tag img{
-    padding: 1rem;
-    width: 40%;
-    height: 75%;
+    width: 7vw;
 }
 
 .build-tag p{
-    padding: 1rem;
-    width: 50%;
-    height: auto;
+    font-size: 1.1vw;
+    padding: 1vw;
 }
