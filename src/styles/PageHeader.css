@@ -6,7 +6,7 @@
 }
 
 .header-logo{
-    height: 75%;
+    height: 65%;
     margin: 1rem 0 0 3rem;
 }
 
@@ -33,7 +33,7 @@ ul{
 }
 
 ul li p{
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #C1C1C1;
 }
 

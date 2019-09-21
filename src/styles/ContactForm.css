@@ -42,3 +42,16 @@ textarea{
     border-radius: 5px;
     font-size: 1.2rem; 
 }
+
+@media only screen and (max-height: 650px){
+    .Contact-component{
+        flex-direction: column;
+        overflow: auto;
+    }
+    .Contact-aside{
+        width: 100%;
+    }
+    .Contact-component form{
+        width: 100%;
+    }
+}
