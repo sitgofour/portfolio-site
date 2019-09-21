@@ -20,9 +20,9 @@ const Footer = () => {
                     <p>lorem lorem lorem lorem lorem</p>
                 </div>
                 <div className="footer-links">
-                    <a href="/"><img src={linkedIcon}/></a>
-                    <a href="/"><img src={githubIcon}/></a>
-                    <a href="/"><img src={twitterIcon}/></a>
+                    <a href="/"><img src={linkedIcon} alt="linked in link"/></a>
+                    <a href="/"><img src={githubIcon} alt="github link"/></a>
+                    <a href="/"><img src={twitterIcon} alt="twitter link"/></a>
                 </div>
             </div>
         </div>
