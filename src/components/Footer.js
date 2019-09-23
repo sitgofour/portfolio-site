@@ -11,10 +11,10 @@ const Footer = () => {
             <div className="email-call">
                 <p>lorem lorem lorem lorem lorem</p>
             </div>
-            <div className="build-tag">
+            {/* <div className="build-tag">
                 <p>Lovingly Built with</p>
                 <img src={gatsbyLogo} alt="gatsby-logo"></img>
-            </div>
+            </div> */}
             <div className="footer-social">
                 <div className="social-text">
                     <p>lorem lorem lorem lorem lorem</p>
