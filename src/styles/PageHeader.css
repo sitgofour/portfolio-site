@@ -7,7 +7,7 @@
 
 .header-logo{
     height: 65%;
-    margin: 1rem 0 0 3rem;
+    margin: 1em 0 0 3em;
 }
 
 .header-logo img{
@@ -16,8 +16,9 @@
 
 ul{
     display: flex;
+    background-color: orange;
     height: 100%;
-    margin: 0 2rem 0 0;
+    margin: 0 2em 0 0;
     list-style: none;
 }
 
@@ -43,4 +44,23 @@ ul a{
 
 .header-link:hover{
     background: rgba(100, 100, 100, .5);
+}
+
+@media (max-width: 800px) {
+    .Page-header{
+        flex-direction: column;
+        align-items: center;
+        min-height: 20%;
+    }
+    .header-logo{
+        height: 40%;
+        margin: 0;
+    }
+    .header-page-links{
+        min-width: 80%;
+        height: 50%;
+    }
+    .header-page-links ul{
+        margin: 0;
+    }
 }

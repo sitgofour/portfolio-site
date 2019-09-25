@@ -5,7 +5,7 @@
     min-height: 15vh;
 }
 
-.build-tag{
+/* .build-tag{
     display: flex;
     flex-wrap: wrap;
     align-self: flex-end;
@@ -24,7 +24,7 @@
     width: 100%;
     font-size: 1.1vw;
     padding: 1vw;
-}
+} */
 
 .footer-social{
     width: 25%;
