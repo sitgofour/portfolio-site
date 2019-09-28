@@ -37,10 +37,6 @@ ul li p{
     color: #C1C1C1;
 }
 
-ul a{
-    text-decoration: none;
-}
-
 .header-link:hover{
     background: rgba(100, 100, 100, .5);
 }

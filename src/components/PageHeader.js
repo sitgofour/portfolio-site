@@ -1,37 +1,38 @@
 import React from 'react';
 import headerLogo from "../images/header-logo.png";
 import "../styles/PageHeader.css";
+import { Link } from 'gatsby';
 
 const PageHeader = () => {
     return(
         <div className="Page-header">
             <div className="header-logo">
-                <a href="/">
+                <Link to="/">
                     <img src={headerLogo} alt="home logo and button"/>
-                </a>
+                </Link>
             </div>
             <div className="header-page-links">
                 <ul>
                     <li>
-                        <a href="/">
+                        <Link to="/">
                             <div className="header-link">
                                 <p>Home</p>
                             </div>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/projects">
+                        <Link to="/projects">
                             <div className="header-link">
                                 <p>Projects</p>
                             </div>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/contact">
+                        <Link to="/contact">
                             <div className="header-link">
                                 <p>Contact</p> 
                             </div>
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>

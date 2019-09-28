@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Footer.css";
-import gatsbyLogo from "../images/Gatsby_Logo_Black.svg";
 import linkedIcon from "../images/footericons/linkedin.png";
 import githubIcon from "../images/footericons/githubdark.png";
 import twitterIcon from "../images/footericons/twittericon.png";
