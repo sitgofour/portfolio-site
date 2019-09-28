@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'gatsby';
 import "../styles/HomeMenu.css";
 import github from "../images/github.svg";
 import linked from "../images/linkedin.svg";
@@ -13,24 +14,24 @@ const HomeMenu = () => {
                 <img src={portrait} alt="artistic portrait"/>
             </div>
             <div className="github-link menu-item">
-                <a href="github.com">
+                <a href="github.com" target="_blank" rel="noopener noreferrer">
                     <img src={github} alt="github-link"/>
                 </a>
             </div>
             <div className="linkedin-link menu-item">
-                <a href="linkedin.com">
+                <a href="linkedin.com" target="_blank" rel="noopener noreferrer">
                     <img src={linked} alt="linked-in-link"/>
                 </a>
             </div>
             <div className="contact-link menu-item">
-                <a href="/contact">
+                <Link to="/contact">
                     <img src={contact} alt="contact-page-link"/>
-                </a>
+                </Link>
             </div>
             <div className="projects-link menu-item">
-                <a href="/projects">
+                <Link to="/projects">
                     <img src={projects} alt="link-to-projects"/>
-                </a>
+                </Link>
             </div>
             <div className="select-option-text">
                 <div className="shimmer">
@@ -43,3 +44,4 @@ const HomeMenu = () => {
 }
 
 export default HomeMenu;
+
