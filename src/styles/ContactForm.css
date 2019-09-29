@@ -1,7 +1,6 @@
 .Contact-component{
     background-color: green;
     width: 100%;
-    min-height: 70%;
     display: flex;
     align-items: center;
     justify-content: space-around;
