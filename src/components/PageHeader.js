@@ -6,36 +6,24 @@ import { Link } from 'gatsby';
 const PageHeader = () => {
     return(
         <div className="Page-header">
-            <div className="header-logo">
-                <Link to="/">
-                    <img src={headerLogo} alt="home logo and button"/>
-                </Link>
-            </div>
-            <div className="header-page-links">
-                <ul>
-                    <li>
-                        <Link to="/">
-                            <div className="header-link">
-                                <p>Home</p>
-                            </div>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/projects">
-                            <div className="header-link">
-                                <p>Projects</p>
-                            </div>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/contact">
-                            <div className="header-link">
-                                <p>Contact</p> 
-                            </div>
-                        </Link>
-                    </li>
-                </ul>
-            </div>
+                <div className="header-logo">
+                    <Link to="/">
+                        <img src={headerLogo} alt="page logo"/>
+                    </Link>
+                </div>
+                <nav className="header-nav">
+                    <ul className="header-nav-list">
+                        <li>
+                            <Link className="header-nav-link" to="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link className="header-nav-link" to="/projects">Projects</Link>
+                        </li>
+                        <li>
+                            <Link className="header-nav-link" to="/contact">Contact</Link>
+                        </li>
+                    </ul>
+                </nav>
         </div>
     )
 }
