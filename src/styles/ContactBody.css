@@ -1,0 +1,10 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.contact-form input {
+    margin: .2em 0 2em 0;
+}
