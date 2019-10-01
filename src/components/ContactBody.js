@@ -9,14 +9,15 @@ const ContactBody = () => {
             </div>
             <div className="contact-form-container">
                 <form className="contact-form">
-                    <label for="name">
+                    <label htmlFor="name">
                         Name
                     </label>
-                    <input name="name" type="text" placeholder="your name"/>
-                    <label for="email">Email</label>
-                    <input name="email" type="email" placeholder="email"/>
-                    <label for="message">Message</label>
-                    <input name="message" type="text" placeholder="a message lay here"/>
+                    <input name="name" type="text" placeholder=" your name"/>
+                    <label htmlFor="email">Email</label>
+                    <input name="email" type="email" placeholder=" email"/>
+                    <label htmlFor="message">Message</label>
+                    <textarea name="message"placeholder=" a message lay here"></textarea>
+                    <input className="contact-form-submit" type="submit" value="send"/>
                 </form>
             </div>
         </div>

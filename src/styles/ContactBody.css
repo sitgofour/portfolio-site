@@ -1,10 +1,21 @@
+.Contact-body {
+    background-color: aqua;
+    flex: 1;
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
     width: 75%;
-    margin: 0 auto;
 }
 
 .contact-form input {
     margin: .2em 0 2em 0;
+    max-width: 500px;
 }
+
+.contact-form textarea {
+    margin: .2em 0 2em 0;
+    max-width: 500px;
+}
+

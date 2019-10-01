@@ -9,7 +9,7 @@ body{
 }
 
 .Page-layout{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
@@ -17,4 +17,5 @@ body{
     background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 
