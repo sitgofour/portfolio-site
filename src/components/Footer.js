@@ -7,22 +7,13 @@ import twitterIcon from "../images/footericons/twittericon.png";
 const Footer = () => {
     return(
         <div className="Footer">
-            <div className="email-call">
-                <p>lorem lorem lorem lorem lorem</p>
+            <div className="footer-links-text">
+                you can also reach me here
             </div>
-            {/* <div className="build-tag">
-                <p>Lovingly Built with</p>
-                <img src={gatsbyLogo} alt="gatsby-logo"></img>
-            </div> */}
-            <div className="footer-social">
-                <div className="social-text">
-                    <p>lorem lorem lorem lorem lorem</p>
-                </div>
-                <div className="footer-links">
-                    <a href="/"><img src={linkedIcon} alt="linked in link"/></a>
-                    <a href="/"><img src={githubIcon} alt="github link"/></a>
-                    <a href="/"><img src={twitterIcon} alt="twitter link"/></a>
-                </div>
+            <div className="footer-links-container">
+                <a className="footer-link" href="/"><img src={linkedIcon} alt="linked in link"/></a>
+                <a className="footer-link" href="/"><img src={githubIcon} alt="github link"/></a>
+                <a className="footer-link" href="/"><img src={twitterIcon} alt="twitter link"/></a>
             </div>
         </div>
     )
