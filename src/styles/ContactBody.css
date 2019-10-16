@@ -19,7 +19,9 @@
 
 /* //////////////////////////////////////////////// */
 
-
+.contact-message {
+    margin-top: 2em;
+}
 
 .contact-form input {
     margin: .2em 0 2em 0;
@@ -41,5 +43,9 @@
     }
     textarea {
         min-height: 200px;
+    }
+    .Contact-body {
+        flex-direction: row;
+        justify-content: space-around;
     }
 }

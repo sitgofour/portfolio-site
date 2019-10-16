@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: grey;
+    background-color: #333333;
 }
 
 .header-logo {
@@ -20,10 +20,6 @@
     justify-content: space-around;
     display: flex;
     list-style: none;
-}
-
-.header-nav-list li {
-    
 }
 
 .header-nav-link {
