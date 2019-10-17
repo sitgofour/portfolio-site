@@ -1,9 +1,13 @@
 import React from 'react';
+import PageLayout from '../components/PageLayout';
+import ProjectsBody from '../components/ProjectsBody';
 
 const Projects = () => {
     return(
         <div className="Projects-page-wrapper">
-            <h1>Projects</h1>
+            <PageLayout>
+                <ProjectsBody />
+            </PageLayout>
         </div>
     )
 }

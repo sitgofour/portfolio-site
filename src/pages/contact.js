@@ -1,12 +1,12 @@
 import React from 'react';
 import PageLayout from '../components/PageLayout';
-import ContactForm from '../components/ContactForm';
+import ContactBody from '../components/ContactBody';
 
 const Contact = () => {
     return(
         <div className="Contact-page-wrapper">
             <PageLayout>
-                <ContactForm />
+                <ContactBody />
             </PageLayout>
         </div>
     )

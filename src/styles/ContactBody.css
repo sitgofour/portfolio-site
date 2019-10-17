@@ -1,0 +1,51 @@
+
+
+/* //should be added to parent wrapper for pages // */
+
+.Contact-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.contact-form {
+    margin: 0 auto 2em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+}
+
+/* //////////////////////////////////////////////// */
+
+.contact-message {
+    margin-top: 2em;
+}
+
+.contact-form input {
+    margin: .2em 0 2em 0;
+    min-width: 250px;
+    max-width: 500px;
+}
+
+.contact-form textarea {
+    margin: .2em 0 2em 0;
+    min-width: 250px;
+    max-width: 500px;
+}
+
+
+@media (min-width: 750px) {
+    .contact-form input, .contact-form textarea{
+        min-width: 400px;
+        max-width: 600px;
+    }
+    textarea {
+        min-height: 200px;
+    }
+    .Contact-body {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
