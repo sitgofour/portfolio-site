@@ -5,7 +5,7 @@ const ContactBody = () => {
     return(
         <div className="Contact-body">
             <div className="contact-message">
-                <p>Hit me up if you so wish :)</p>
+                <h1>I would love to hear from you.</h1>
             </div>
             <div className="contact-form-container">
                 <form
