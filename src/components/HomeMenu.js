@@ -14,12 +14,12 @@ const HomeMenu = () => {
                 <img src={portrait} alt="artistic portrait"/>
             </div>
             <div className="github-link menu-item">
-                <a href="github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/sitgofour" target="_blank" rel="noopener noreferrer">
                     <img src={github} alt="github-link"/>
                 </a>
             </div>
             <div className="linkedin-link menu-item">
-                <a href="linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/evan-smith-45600b97/" target="_blank" rel="noopener noreferrer">
                     <img src={linked} alt="linked-in-link"/>
                 </a>
             </div>
