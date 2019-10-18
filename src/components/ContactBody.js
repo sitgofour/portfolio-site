@@ -25,6 +25,7 @@ const ContactBody = () => {
                     <textarea name="message"placeholder=" a message lay here"></textarea>
                     <button className="contact-form-submit" type="submit">Submit</button>
                     <input type="hidden" name="bot-field" />
+                    <input type="hidden" name="form-name" value="contact" />
                 </form>
             </div>
         </div>
