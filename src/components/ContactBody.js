@@ -22,7 +22,7 @@ const ContactBody = () => {
                     <input name="email" type="email" placeholder=" email"/>
                     <label htmlFor="message">Message</label>
                     <textarea name="message"placeholder=" a message lay here"></textarea>
-                    <input className="contact-form-submit" type="submit" value="send"/>
+                    <button className="contact-form-submit" type="submit">Submit</button>
                     <input type="hidden" name="bot-field" />
                 </form>
             </div>
