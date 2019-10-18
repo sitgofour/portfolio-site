@@ -9,6 +9,7 @@ const ContactBody = () => {
             </div>
             <div className="contact-form-container">
                 <form
+                    encType="application/x-www-form-urlencoded"
                     name="contact" 
                     className="contact-form" 
                     form method="post" 
