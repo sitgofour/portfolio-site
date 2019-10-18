@@ -8,7 +8,12 @@ const ContactBody = () => {
                 <p>Hit me up if you so wish :)</p>
             </div>
             <div className="contact-form-container">
-                <form className="contact-form" form method="post" netlify-honeypot="bot-field" data-netlify="true">
+                <form
+                    name="contact" 
+                    className="contact-form" 
+                    form method="post" 
+                    netlify-honeypot="bot-field" 
+                    data-netlify="true">
                     <label htmlFor="name">
                         Name
                     </label>
