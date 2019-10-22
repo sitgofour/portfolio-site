@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/HomeTitle.css";
-import evan from "../images/name.svg";
+import evan from "../images/name.png";
 import subtitle from "../images/subtitle.svg";
 
 const HomeTitle = () => {
