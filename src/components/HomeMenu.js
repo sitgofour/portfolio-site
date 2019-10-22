@@ -3,8 +3,8 @@ import { Link } from 'gatsby';
 import "../styles/HomeMenu.css";
 import github from "../images/github.svg";
 import linked from "../images/linkedin.svg";
-import contact from "../images/contact.svg";
-import projects from "../images/projects.svg";
+import contact from "../images/contact.png";
+import projects from "../images/projects.png";
 import portrait from "../images/portrait.svg";
 
 const HomeMenu = () => {

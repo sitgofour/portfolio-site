@@ -60,10 +60,17 @@
     grid-column: page-left / center-column;
     grid-row: center-row / page-bottom;
 }
+.contact-link img{
+  max-width: 200px;
+}
 
 .projects-link{
     grid-column: center-column / page-right;
     grid-row: center-row / page-bottom;
+}
+
+.projects-link img{
+  max-width: 200px;
 }
 
 .select-option-text{
