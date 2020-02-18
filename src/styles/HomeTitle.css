@@ -16,11 +16,13 @@
 }
 
 .Title h1{
+    font-family: "Krona One", sans-serif;
     margin: .5rem 1rem;
     font-size: 6rem;
 }
 
 .Subtitle h3{
+    font-family: "Saira Semi Condensed", sans-serif;
     text-transform: uppercase;
     margin-left: 1rem;
     font-size: 2rem;

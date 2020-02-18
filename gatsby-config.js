@@ -17,6 +17,21 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       }
     },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Krona One`,
+            variants: [`400`, `700`]
+          },
+          {
+            family: `Saira Semi Condensed`,
+            variants: [`400`, `700`]
+          },
+        ],
+      },
+    }
   ]
 
 }
