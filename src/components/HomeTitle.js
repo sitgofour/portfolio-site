@@ -7,10 +7,10 @@ const HomeTitle = () => {
     return(
         <div className="Home-title">
             <div className="Title">
-                <img src={evan} alt="evan smith"/>
+                <h1>Evan Smith</h1>
             </div>
             <div className="Subtitle">
-                <img src={subtitle} alt="web developer"/>
+                <h3>Software Development</h3>
             </div>
         </div>
     )
