@@ -1,8 +1,50 @@
 .Projects-body {
     display: flex;
+    align-self: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     flex: 1;
+    width: 90%;
 }
 
+.projects-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 99%;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #333333;
+    color: white;
+    margin: 1em 0.5em;
+    padding: 1.5em;
+    min-width: 300px;
+    min-height: 500px;
+    max-width: 30%;
+    border: 3px solid #03fcf4;
+    border-radius: 2em;
+}
+
+.project-img-wrapper {
+    max-width: 80%;
+    border: 3px solid #03fcf4;
+    border-radius: 1em;
+    padding: 1.3em;
+    margin-bottom: .8em;
+}
+
+.project-link a {
+    color: #03fcf4;
+    text-decoration: none;
+}
+
+.project-description {
+    max-width: 80%;
+    margin-top: 1.5em;
+}
