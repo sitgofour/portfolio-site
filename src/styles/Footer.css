@@ -23,6 +23,13 @@
     padding-top: 5px;
 }
 
+.footer-link:hover {
+    background: rgba(255, 0, 255, 0.8);
+    border-radius: 30%;
+    padding: .3em;
+    transition-duration: 1.2s;
+}
+
 .footer-link img {
     max-width: 50px;
 }

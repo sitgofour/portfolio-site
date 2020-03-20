@@ -9,6 +9,7 @@
 }
 
 .projects-wrapper {
+    margin: 2em 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -31,12 +32,24 @@
     border-radius: 2em;
 }
 
+.project:hover {
+    transform: scale(1.1);
+    border: 5px solid rgb(255, 0, 255);
+    transition-duration: .7s;
+}
+
 .project-img-wrapper {
-    max-width: 80%;
+    max-width: 90%;
     border: 3px solid #03fcf4;
     border-radius: 1em;
     padding: 1.3em;
     margin-bottom: .8em;
+}
+
+.project-title {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
 }
 
 .project-link a {
@@ -44,7 +57,15 @@
     text-decoration: none;
 }
 
+.project-link a:hover {
+    color: rgb(255, 0, 255);
+}
+
 .project-description {
-    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
     margin-top: 1.5em;
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/ProjectsBody.css';
 import PortfolioImg from '../images/portfolio.png';
 import SeazonalImg from '../images/seazonal.png';
+import RankChatImg from '../images/rankchat.png';
 
 
 const ProjectsBody = () => {
@@ -12,10 +13,10 @@ const ProjectsBody = () => {
                     <div className="project-img-wrapper">
                         <img src={PortfolioImg} alt="evan of earth website"></img>
                     </div>
-                    <div className="project-title">EvanOfEarth.com</div>
+                    <div className="project-title">EvanOfEarth</div>
                     <div className="project-link"><a href="/">www.EvanOfEarth.com</a></div>
                     <div className="project-description">
-                        <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                        <p>Portfolio Website designed and built using Gatsby.js</p>
                     </div>
                 </div>
                 <div className="project">
@@ -25,17 +26,19 @@ const ProjectsBody = () => {
                     <div className="project-title">Seazonal</div>
                     <div className="project-link"><a href="https://www.seazonal.netlify.com">Seazonal.netlify.com</a></div>
                     <div className="project-description">
-                        <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                        <p>Gathers recipes based on current local weather using Spoonacular and OpenWeather API</p>
+                        <p>React.js</p>
                     </div>
                 </div>
                 <div className="project">
                     <div className="project-img-wrapper">
-                        <img src={PortfolioImg} alt="rank chat website"></img>
+                        <img src={RankChatImg} alt="rank chat website"></img>
                     </div>
                     <div className="project-title">RankChat</div>
                     <div className="project-link"><a href="https://github.com/sitgofour/rankChat">github.com/RankChat</a></div>
                     <div className="project-description">
-                        <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                        <p>Users make and rank posts by voting</p>
+                        <p>MongoDb | Express | React | Node.js</p>
                     </div>
                 </div>
             </div>
