@@ -24,7 +24,7 @@ const ProjectsBody = () => {
                         <img src={SeazonalImg} alt="seazonal website"></img>
                     </div>
                     <div className="project-title">Seazonal</div>
-                    <div className="project-link"><a href="https://seazonal.netlify.app/">Seazonal.netlify.com</a></div>
+                    <div className="project-link"><a href="https://seazonal.netlify.app/">Seazonal.netlify.app</a></div>
                     <div className="project-description">
                         <p>Gathers recipes based on current local weather using Spoonacular and OpenWeather API</p>
                         <p>React.js</p>
