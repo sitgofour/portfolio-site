@@ -8,10 +8,19 @@ body{
     padding: 0;
 }
 
-.page-wrapper{
+.page-wrapper-night{
     height: 100vh;
     width: auto;
     background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.page-wrapper-day{
+    height: 100vh;
+    width: auto;
+    background-color: #e9b9b9;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
