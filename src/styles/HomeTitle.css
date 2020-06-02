@@ -1,4 +1,19 @@
-.Home-title{
+.Home-title-day{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #FBFBFB;
+    background: -webkit-linear-gradient(bottom left, #FBFBFB, #E97434);
+    background: -moz-linear-gradient(bottom left, #FBFBFB, #E97434);
+    background: linear-gradient(to top right, #FBFBFB, #E97434);
+    border-radius: 0 1em 1em 0;
+    width: 90%;
+    height: 20%;
+    box-shadow: 2px 5px rgba(255, 2555, 255, .3);
+}
+
+.Home-title-night{
     display: flex;
     flex-direction: column;
     justify-content: center;

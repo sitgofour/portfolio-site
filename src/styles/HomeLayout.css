@@ -20,8 +20,31 @@ body{
 .page-wrapper-day{
     height: 100vh;
     width: auto;
-    background-color: #e9b9b9;
+    background: #FFF549;
+    background: -webkit-linear-gradient(top right, #FFF549, #FFFFFF);
+    background: -moz-linear-gradient(top right, #FFF549, #FFFFFF);
+    background: linear-gradient(to bottom left, #FFF549, #FFFFFF);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.night {
+    margin: .5em;
+    color: #333333;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+}
+
+.day {
+    margin: .5em;
+    color: white;
+    background-color: #333333;
+    border: none;
+    border-radius: 4px;
+    letter-spacing: 1.2px;
+    text-decoration: none;
 }
