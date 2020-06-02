@@ -30,7 +30,7 @@ body{
 }
 
 .night {
-    margin: .5em;
+    margin-left: 3em;
     color: #333333;
     background-color: #FFFFFF;
     border: none;
@@ -40,7 +40,7 @@ body{
 }
 
 .day {
-    margin: .5em;
+    margin-left: 3em;
     color: white;
     background-color: #333333;
     border: none;
