@@ -35,7 +35,7 @@ const ProjectsBody = () => {
                         <img src={RankChatImg} alt="rank chat website"></img>
                     </div>
                     <div className="project-title">PoetPost</div>
-                    <div className="project-link"><a href="https://github.com/sitgofour/PoetPost">github.com/RankChat</a></div>
+                    <div className="project-link"><a href="https://github.com/sitgofour/PoetPost">github.com/PoetPost</a></div>
                     <div className="project-description">
                         <p>Users make and rank posts by voting</p>
                         <p>MongoDb | Express | React | Node.js</p>
