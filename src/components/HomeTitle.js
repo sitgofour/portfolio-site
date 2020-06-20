@@ -13,7 +13,7 @@ class HomeTitle extends Component {
                     <h1>Evan Smith</h1>
                 </div>
                 <div className="Subtitle">
-                    <h3>Software Development</h3>
+                    <h2>Software Development</h2>
                 </div>
             </div>
         )
