@@ -38,7 +38,7 @@ const ProjectsBody = () => {
                     <div className="project-link"><a href="https://poet-post.herokuapp.com/">poet-post.herokuapp.com</a></div>
                     <div className="project-description">
                         <p>Users make and rank posts by voting</p>
-                        <p>MongoDb | Express | React | Node.js</p>
+                        <p>Javascript | MongoDb | Express | Node.js</p>
                     </div>
                 </div>
             </div>
