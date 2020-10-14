@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/ProjectsBody.css';
 import PortfolioImg from '../images/portfolio.png';
 import SeazonalImg from '../images/seazonal.png';
-import RankChatImg from '../images/rankchat.png';
+import PoetPostImg from '../images/poetPostPage.png';
 
 
 const ProjectsBody = () => {
@@ -32,7 +32,7 @@ const ProjectsBody = () => {
                 </div>
                 <div className="project">
                     <div className="project-img-wrapper">
-                        <img src={RankChatImg} alt="rank chat website"></img>
+                        <img src={PoetPostImg} alt="Poet Post Web App Home Page"></img>
                     </div>
                     <div className="project-title">PoetPost</div>
                     <div className="project-link"><a href="https://poet-post.herokuapp.com/">poet-post.herokuapp.com</a></div>
