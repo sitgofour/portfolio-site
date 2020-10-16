@@ -31,7 +31,7 @@
 .portrait-image{
     grid-column: left-margin / page-left;
     grid-row: page-top / center-row;
-    height: 99%;
+    height: 89%;
 }
 
 .github-link{
@@ -111,11 +111,11 @@
 
 @media only screen and (max-width: 1000px), (max-height: 800px) {
     .Home-menu{
-      margin-bottom: 8rem;
+      margin-bottom: 0rem;
     }
 
     .menu-item{
-        width: 30vw;
+        width: 20vw;
         margin: 1rem;
         background: none;
     }
@@ -134,7 +134,7 @@
         height: 15vh;
     }
     .portrait-image img{
-        height: 100%;
+        height: 80%;
     }
 
     .menu-item img{
