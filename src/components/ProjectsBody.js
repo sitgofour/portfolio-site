@@ -1,8 +1,8 @@
 import React from 'react';
 import '../styles/ProjectsBody.css';
 import PortfolioImg from '../images/portfolio.png';
-import SeazonalImg from '../images/seazonal.png';
-import PoetPostImg from '../images/poetPostPage.png';
+import SeazonalImg from '../images/seaz_small.jpg';
+import PoetPostImg from '../images/poet_small.jpg';
 
 
 const ProjectsBody = () => {
